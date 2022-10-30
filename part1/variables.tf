@@ -37,7 +37,7 @@ variable "ec2_subnet_id" {
 }
 
 variable "ec2_tags" {
-    default = ["Tomcat","Docker","Jenkins"]
+    default = ["Tomcat","Docker","Jenkins1","MasterNode-ansible","WorkerNode-ansible"]
   
 }
 
