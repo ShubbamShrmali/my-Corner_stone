@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git checkout') {
            steps{
-                git branch: 'main', credentialsId: 'Github', url: 'https://github.com/ShubbamShrmali/Terraform-Project-CS.git'
+                git branch: 'main', credentialsId: 'GitHub', url: 'https://github.com/ShubbamShrmali/my-Corner_stone.git'
             }
         }
         stage('terraform format check') {
